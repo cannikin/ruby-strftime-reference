@@ -1,0 +1,12 @@
+{
+  "name": "ruby-strftime-reference",
+  "main": "./lib/ruby-strftime-reference",
+  "version": "0.0.0",
+  "description": "Quick reference for Ruby's strftime format directives",
+  "repository": "https://github.com/cannikin/ruby-strftime-reference",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {}
+}

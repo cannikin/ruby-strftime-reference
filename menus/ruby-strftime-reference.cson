@@ -1,0 +1,9 @@
+'menu': [
+  {
+    'label': 'Help'
+    'submenu': [
+      { 'label': 'Send Feedback', 'command': 'feedback:report' }
+      { type: 'separator' }
+    ]
+  }
+]
