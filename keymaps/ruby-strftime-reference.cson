@@ -1,2 +1,2 @@
-'.workspace':
+'.platform-darwin':
   'cmd-ctrl-r': 'ruby-strftime-reference:toggle'
