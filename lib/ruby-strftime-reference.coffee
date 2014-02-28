@@ -1,12 +1,9 @@
-FeedbackStatusView = require './feedback-status-view'
-FeedbackFormView = null
+RubyStrftimeReferenceView = null
 
 module.exports =
   activate: ->
-    @feedbackStatusView = new FeedbackStatusView()
-    atom.workspaceView.command 'feedback:report', =>
-      FeedbackFormView ?= require './feedback-form-view'
-      new FeedbackFormView()
+    atom.workspaceView.command 'ruby-strftime-reference:toggle', =>
+      RubyStrftimeReferenceView ?= require './ruby-strftime-reference-view'
+      new RubyStrftimeReferenceView()
 
   deactivate: ->
-    @feedbackStatusView.remove()

@@ -1,3 +1,2 @@
-'body .feedback':
-  'tab': 'feedback:tab'
-  'shift-tab': 'feedback:tab-previous'
+'.workspace':
+  'cmd-ctrl-r': 'ruby-strftime-reference:toggle'

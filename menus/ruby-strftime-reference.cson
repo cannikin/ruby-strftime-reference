@@ -1,9 +1,11 @@
 'menu': [
   {
-    'label': 'Help'
+    'label': 'Packages'
     'submenu': [
-      { 'label': 'Send Feedback', 'command': 'feedback:report' }
-      { type: 'separator' }
+      'label': 'Ruby strftime Reference'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'ruby-strftime-reference:toggle' }
+      ]
     ]
   }
 ]
